@@ -1,0 +1,44 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* common style  */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ /* header  */
+/* navbar  */
+.search{
+    width: 550px;
+    position: relative;
+}
+.button{
+    position: absolute;
+    top: 0px;
+    right: 15px;
+}
+.fas{
+    color: rgba(128, 128, 128, 0.74);
+}
+
+/* slider  */
+.slide{
+    background: #FEEAE9;
+}
+.slide-text h2{
+    color: #FF136F;
+}
+.slide-text p{
+    color: #4E4E4E;
+}
+.slide-button{
+    padding: 14px 20px;
+    color: white;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-radius: 6px;
+}
+.arrow{
+    color: white;
+}
